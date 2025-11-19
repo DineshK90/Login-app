@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+label {
+  font-size: 16px;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: palevioletred;
+  color: black;
+  padding: 20px;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color:pink;
+}
+
+#result {
+  margin-top: 20px;
+}
